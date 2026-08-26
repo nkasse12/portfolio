@@ -60,9 +60,9 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "b/b5/Flag_of_Michigan.svg", "greeting": "Hello", "description": "Michigan"},
-        {"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India"},
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - 5 years"},
+        {"flag": "b/b5/Flag_of_Michigan.svg", "greeting": "Hello", "description": "Michigan - 5 and a half years"},
+        {"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India - 2 years"},
     ];
 
     // 3a. Consider how to update style count for size of container
@@ -109,11 +109,15 @@ Here is a timeline of my life!
 
 ### Places I Traveled
 
-Here are some places I have traveled!
+Here are some of my favorite places I have traveled to!
 
-- ✈️ Place 1
-- ✈️ Place 2
-- ✈️ Place 3
+- ✈️ Hawaii!
+- ✈️ The Grand Canyon
+- ✈️ White Pockets
+- ✈️ New York
+- ✈️ Chicago
+- ✈️ Yosemite National Park
+- And so many more!
 
 <style>
     .travel-gallery {
@@ -141,16 +145,28 @@ Here are some places I have traveled!
 
 <div class="travel-gallery">
   <figure>
-    <img src="{{site.baseurl}}/images/about/travel1.jpg" alt="Travel photo 1">
-    <figcaption>Caption for photo 1</figcaption>
+    <img src="{{site.baseurl}}/images/about/travel1.jpg" alt="Hawaii">
+    <figcaption>Hawaii!</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/travel2.jpg" alt="Travel photo 2">
-    <figcaption>Caption for photo 2</figcaption>
+    <img src="{{site.baseurl}}/images/about/travel2.jpg" alt="The Grand Canyon">
+    <figcaption>The Grand Canyon</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/travel3.jpg" alt="Travel photo 3">
-    <figcaption>Caption for photo 3</figcaption>
+    <img src="{{site.baseurl}}/images/about/travel3.jpg" alt="White Pockets">
+    <figcaption>White Pockets</figcaption>
+  </figure>
+  <figure>
+    <img src="{{site.baseurl}}/images/about/travel4.jpg" alt="New York">
+    <figcaption>New York</figcaption>
+  </figure>
+  <figure>
+    <img src="{{site.baseurl}}/images/about/travel5.jpg" alt="Chicago">
+    <figcaption>Chicago</figcaption>
+  </figure>
+  <figure>
+    <img src="{{site.baseurl}}/images/about/travel6.jpg" alt="Yosemite National Park">
+    <figcaption>Yosemite National Park</figcaption>
   </figure>
 </div>
 
