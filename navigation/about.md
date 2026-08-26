@@ -61,9 +61,8 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
+        {"flag": "b/b5/Flag_of_Michigan.svg", "greeting": "Hello", "description": "Michigan"},
+        {"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India"},
     ];
 
     // 3a. Consider how to update style count for size of container
@@ -99,13 +98,62 @@ Flags are made using Wikipedia images
 
 ### Journey through Life
 
-Here is what I did at those places
+Here is a timeline of my life!
 
 - 🏫 Preschool and Elementary School in San Diego CA at Ericson Elementary School
 - 🏫 Elementary and Upper Elementary School in Novi MI at Parkview Elementary School and Novi Meadows Upper Elementary
 - 🏫 Middle School in Torrance CA at Jefferson Middle School
 - 🏫 Half of high school(freshman and sophmore year) at Rockwell International School in Hyderabad, India
-- 🏫 Currently finishing high school(junior year) at Del Norte High School in San Diego CA
+- 🏫 Currently finishing high school(junior year) at Del Norte High School in San Diego CA 
+
+
+### Places I Traveled
+
+Here are some places I have traveled!
+
+- ✈️ Place 1
+- ✈️ Place 2
+- ✈️ Place 3
+
+<style>
+    .travel-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .travel-gallery figure {
+        margin: 0;
+        width: 200px;
+    }
+    .travel-gallery img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .travel-gallery figcaption {
+        font-size: 0.85em;
+        color: gray;
+        text-align: center;
+        margin-top: 5px;
+    }
+</style>
+
+<div class="travel-gallery">
+  <figure>
+    <img src="{{site.baseurl}}/images/about/travel1.jpg" alt="Travel photo 1">
+    <figcaption>Caption for photo 1</figcaption>
+  </figure>
+  <figure>
+    <img src="{{site.baseurl}}/images/about/travel2.jpg" alt="Travel photo 2">
+    <figcaption>Caption for photo 2</figcaption>
+  </figure>
+  <figure>
+    <img src="{{site.baseurl}}/images/about/travel3.jpg" alt="Travel photo 3">
+    <figcaption>Caption for photo 3</figcaption>
+  </figure>
+</div>
+
 
 ### Culture, Family, and Fun
 
