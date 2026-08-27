@@ -148,8 +148,8 @@ Here are some of my favorite places I have traveled to!
         text-align: center;
         margin-top: 5px;
     }
-    .travel-gallery figure.shift-down {
-        margin-top: 40px;
+    .travel-gallery img.crop-top {
+        object-position: top;
     }
     .travel-gallery .rotate-wrap {
         position: relative;
@@ -187,12 +187,12 @@ Here are some of my favorite places I have traveled to!
     <img src="{{site.baseurl}}/images/about/death_valley.jpeg" alt="Death Valley">
     <figcaption>Death Valley</figcaption>
   </figure>
-  <figure class="shift-down">
-    <img src="{{site.baseurl}}/images/about/horseshoe_bend.jpeg" alt="Horseshoe Bend">
+  <figure>
+    <img class="crop-top" src="{{site.baseurl}}/images/about/horseshoe_bend.jpeg" alt="Horseshoe Bend">
     <figcaption>Horseshoe Bend</figcaption>
   </figure>
-  <figure class="shift-down">
-    <img src="{{site.baseurl}}/images/about/antelope_canyon.jpeg" alt="Antelope Canyon">
+  <figure>
+    <img class="crop-top" src="{{site.baseurl}}/images/about/antelope_canyon.jpeg" alt="Antelope Canyon">
     <figcaption>Antelope Canyon</figcaption>
   </figure>
 </div>
