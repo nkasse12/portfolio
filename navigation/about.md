@@ -41,18 +41,6 @@ Flags are made using Wikipedia images
         margin: 5px 0; /* Add some margin for spacing */
     }
 
-    .image-gallery {
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        gap: 10px;
-        }
-
-    .image-gallery img {
-        max-height: 150px;
-        object-fit: cover;
-        border-radius: 5px;
-    }
 </style>
 
 <!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
@@ -209,16 +197,53 @@ Some friends I connected to more than most. I've been maintaining these friendsh
 
 Here is a gallery of photos showcasing some of the memories I made with my friends and family!
 
+<style>
+    .hex-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hex-row {
+        display: flex;
+        gap: 10px;
+    }
+    .hex-row + .hex-row {
+        margin-top: -43px;
+    }
+    .hex {
+        width: 150px;
+        height: 173px;
+        overflow: hidden;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        transition: transform 0.2s ease;
+    }
+    .hex:hover {
+        transform: scale(1.06);
+    }
+    .hex img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+</style>
+
 <comment>
-Gallery of Pics, scroll to the right for more ...
+Gallery of Pics, arranged in a honeycomb
 </comment>
-<div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/family.jpg" alt="Family">
-  <img src="{{site.baseurl}}/images/about/brother.jpg" alt="Brother">
-  <img src="{{site.baseurl}}/images/about/friends1.jpg" alt="Friends">
-  <img src="{{site.baseurl}}/images/about/friends2.jpg" alt="Friends">
-  <img src="{{site.baseurl}}/images/about/friends3.jpg" alt="Friends">
-  <img src="{{site.baseurl}}/images/about/friends4.jpg" alt="Friends">
-  <img src="{{site.baseurl}}/images/about/friends5.jpg" alt="Friends">
-  <img src="{{site.baseurl}}/images/about/friends6.jpg" alt="Friends">
+<div class="hex-grid">
+  <div class="hex-row">
+    <div class="hex"><img src="{{site.baseurl}}/images/about/family.jpg" alt="Family"></div>
+    <div class="hex"><img src="{{site.baseurl}}/images/about/brother.jpg" alt="Brother"></div>
+    <div class="hex"><img src="{{site.baseurl}}/images/about/friends1.jpg" alt="Friends"></div>
+  </div>
+  <div class="hex-row">
+    <div class="hex"><img src="{{site.baseurl}}/images/about/friends2.jpg" alt="Friends"></div>
+    <div class="hex"><img src="{{site.baseurl}}/images/about/friends3.jpg" alt="Friends"></div>
+  </div>
+  <div class="hex-row">
+    <div class="hex"><img src="{{site.baseurl}}/images/about/friends4.jpg" alt="Friends"></div>
+    <div class="hex"><img src="{{site.baseurl}}/images/about/friends5.jpg" alt="Friends"></div>
+    <div class="hex"><img src="{{site.baseurl}}/images/about/friends6.jpg" alt="Friends"></div>
+  </div>
 </div>
