@@ -219,7 +219,7 @@ Here is a gallery of photos showcasing some of the memories I made with my frien
         object-fit: contain;
     }
     .photo-grid img.turn {
-        transform: rotate(90deg);
+        transform: rotate(-90deg);
     }
     @media (max-width: 480px) {
         .photo-grid {
@@ -229,7 +229,7 @@ Here is a gallery of photos showcasing some of the memories I made with my frien
 </style>
 
 <comment>
-Gallery of Pics, simple grid, nothing cropped
+Gallery of Pics:
 </comment>
 <div class="photo-grid">
   <div class="cell"><img src="{{site.baseurl}}/images/about/family.jpg" alt="Family"></div>
