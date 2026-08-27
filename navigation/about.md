@@ -142,7 +142,7 @@ Here are some of my favorite places I have traveled to!
         margin-top: 5px;
     }
     .travel-gallery figure.shift-down {
-        margin-top: 25px;
+        margin-top: 40px;
     }
     .travel-gallery .rotate-wrap {
         position: relative;
@@ -157,7 +157,7 @@ Here are some of my favorite places I have traveled to!
         left: 50%;
         width: 150px;
         height: 200px;
-        transform: translate(-50%, -50%) rotate(90deg);
+        transform: translate(-50%, -50%) rotate(-90deg);
     }
 </style>
 
