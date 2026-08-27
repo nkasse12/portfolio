@@ -5,6 +5,13 @@ permalink: /about/
 comments: true
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    .post-content {
+        font-family: 'Merriweather', serif;
+    }
+</style>
+
 ## As a conversation Starter
 
 Here are some places I have had permanent residences.
