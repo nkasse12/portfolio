@@ -140,6 +140,9 @@ All of these pictures were taken by me!
     .travel-gallery img.crop-top {
         object-position: top;
     }
+    .travel-gallery img.crop-formation {
+        object-position: center 60%;
+    }
     .travel-gallery .rotate-wrap {
         position: relative;
         width: 100%;
@@ -169,7 +172,7 @@ All of these pictures were taken by me!
     <figcaption>Las Vegas</figcaption>
   </figure>
   <figure>
-    <img class="crop-top" src="{{site.baseurl}}/images/about/whitepockets.jpeg" alt="White Pockets">
+    <img class="crop-formation" src="{{site.baseurl}}/images/about/whitepockets.jpeg" alt="White Pockets">
     <figcaption>White Pockets</figcaption>
   </figure>
   <figure>
