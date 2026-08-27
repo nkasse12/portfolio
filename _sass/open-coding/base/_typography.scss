@@ -31,98 +31,30 @@ td code {
   color: var(--pref-text-color) !important;
 }
 
-/* Force overall website background and text color */
+/* Force overall website background and text color -- Hawaii palette */
 html, body {
-    background-color: #0d2f35 !important; /* Deep Teal background */
-    color: #f0fdfa !important;            /* Soft white/mint text */
+    background-color: #eafcfb !important; /* Tropical teal-tinted white background */
+    color: #073c38 !important;            /* Deep teal text */
 }
 
 /* Force headings and paragraph text to be readable */
 p, li, h1, h2, h3, h4, h5, h6, a {
-    color: #f0fdfa !important;            
+    color: #073c38 !important;
 }
 
-/* Make links pop with a bright mint accent color */
+/* Make links pop with a coral accent color */
 a {
-    color: #2dd4bf !important;            /* Bright Mint links */
-}
-
-body {
-  background-color: rgb(224, 242, 254);
-  color: rgb(15, 23, 42);
+    color: #ff8a65 !important;            /* Coral links */
 }
 
 .page-content {
-  color: rgb(15, 23, 42);
+  color: #073c38;
 }
 
 :link {
   background-color: transparent;
-  border: 2px solid rgb(8, 47, 73);
-  color: rgb(8, 47, 73);
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-:link {
-  background-color: transparent;
-  border: 2px solid rgb(8, 47, 73);
-  color: rgb(8, 47, 73);
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-:link {
-  background-color: transparent;
-  border: 2px solid rgb(8, 47, 73);
-  color: rgb(8, 47, 73);
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-:link {
-  background-color: transparent;
-  border: 2px solid rgb(8, 47, 73);
-  color: rgb(8, 47, 73);
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-:link {
-  background-color: transparent;
-  border: 2px solid rgb(8, 47, 73);
-  color: rgb(8, 47, 73);
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-:link {
-  background-color: transparent;
-  border: 2px solid rgb(8, 47, 73);
-  color: rgb(8, 47, 73);
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-:link {
-  background-color: transparent;
-  border: 2px solid rgb(8, 47, 73);
-  color: rgb(8, 47, 73);
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-:link {
-  background-color: transparent;
-  border: 2px solid rgb(8, 47, 73);
-  color: rgb(8, 47, 73);
+  border: 2px solid #073c38;
+  color: #073c38;
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;
