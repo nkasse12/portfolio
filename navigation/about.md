@@ -14,7 +14,7 @@ comments: true
 
 ## As a conversation Starter
 
-Here are some places I have had permanent residences.
+Here are some places I have lived at!
 
 <comment>
 Flags are made using Wikipedia images
@@ -113,6 +113,7 @@ Here are some of my favorite places I have traveled to!
 - ✈️ Horseshoe Bend
 - ✈️ Antelope Canyon
 - And so many more!
+All of these pictures were taken by me!
 
 <style>
     .travel-gallery {
@@ -158,7 +159,7 @@ Here are some of my favorite places I have traveled to!
 
 <div class="travel-gallery">
   <figure>
-    <img src="{{site.baseurl}}/images/about/hawaii.jpeg" alt="Hawaii">
+    <img class="crop-top" src="{{site.baseurl}}/images/about/hawaii.jpeg" alt="Hawaii">
     <figcaption>Hawaii!</figcaption>
   </figure>
   <figure>
@@ -168,11 +169,11 @@ Here are some of my favorite places I have traveled to!
     <figcaption>Las Vegas</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/whitepockets.jpeg" alt="White Pockets">
+    <img class="crop-top" src="{{site.baseurl}}/images/about/whitepockets.jpeg" alt="White Pockets">
     <figcaption>White Pockets</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/death_valley.jpeg" alt="Death Valley">
+    <img class="crop-top" src="{{site.baseurl}}/images/about/death_valley.jpeg" alt="Death Valley">
     <figcaption>Death Valley</figcaption>
   </figure>
   <figure>
