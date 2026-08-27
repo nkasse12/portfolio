@@ -112,11 +112,11 @@ Here is a timeline of my life!
 Here are some of my favorite places I have traveled to!
 
 - ✈️ Hawaii!
-- ✈️ The Grand Canyon
+- ✈️ Las Vegas
 - ✈️ White Pockets
-- ✈️ New York
-- ✈️ Chicago
-- ✈️ Yosemite National Park
+- ✈️ Death Valley
+- ✈️ Horseshoe Bend
+- ✈️ Antelope Canyon
 - And so many more!
 
 <style>
@@ -145,39 +145,42 @@ Here are some of my favorite places I have traveled to!
 
 <div class="travel-gallery">
   <figure>
-    <img src="{{site.baseurl}}/images/about/travel1.jpg" alt="Hawaii">
+    <img src="{{site.baseurl}}/images/about/hawaii.jpeg" alt="Hawaii">
     <figcaption>Hawaii!</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/travel2.jpg" alt="The Grand Canyon">
-    <figcaption>The Grand Canyon</figcaption>
+    <img src="{{site.baseurl}}/images/about/vegas.jpeg" alt="Las Vegas">
+    <figcaption>Las Vegas</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/travel3.jpg" alt="White Pockets">
+    <img src="{{site.baseurl}}/images/about/whitepockets.jpeg" alt="White Pockets">
     <figcaption>White Pockets</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/travel4.jpg" alt="New York">
-    <figcaption>New York</figcaption>
+    <img src="{{site.baseurl}}/images/about/death_valley.jpeg" alt="Death Valley">
+    <figcaption>Death Valley</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/travel5.jpg" alt="Chicago">
-    <figcaption>Chicago</figcaption>
+    <img src="{{site.baseurl}}/images/about/horseshoe_bend.jpeg" alt="Horseshoe Bend">
+    <figcaption>Horseshoe Bend</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/travel6.jpg" alt="Yosemite National Park">
-    <figcaption>Yosemite National Park</figcaption>
+    <img src="{{site.baseurl}}/images/about/antelope_canyon.jpeg" alt="Antelope Canyon">
+    <figcaption>Antelope Canyon</figcaption>
   </figure>
 </div>
 
 
-### Culture, Family, and Fun
+### Family and Friends!
 
-Everything for me, as for many others, revolves around family and faith.
+Most of my best memories were made with my family and my best friends!
+There's nothing I value more than friends and a good relationship with your family
+- My family is pretty small, just my parents, my brother, and I. The rest of our family lives in India, but the people I've always connected to most were my grandparents on my mother's side, my uncle on my mother's side, and my cousins on both sides! 
+- Growing up, I've always moved around a lot. In fact, this year is my 5th time moving to another place. 
+Luckily, I've always managed to make friends everywhere I went. Whether I was happy or sad, I could always count on my friends to be there for me. 
+Some friends I connected to more than most. I've been maintaining these friendships for many years thousands of miles away. 
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
+Here is a gallery of photos showcasing some of the memories I made with my friends and family!
 
 <comment>
 Gallery of Pics, scroll to the right for more ...
