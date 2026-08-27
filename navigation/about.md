@@ -198,52 +198,46 @@ Some friends I connected to more than most. I've been maintaining these friendsh
 Here is a gallery of photos showcasing some of the memories I made with my friends and family!
 
 <style>
-    .hex-grid {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+    }
+    .photo-grid .cell {
+        aspect-ratio: 1 / 1;
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
         display: flex;
-        flex-direction: column;
         align-items: center;
-    }
-    .hex-row {
-        display: flex;
-        gap: 10px;
-    }
-    .hex-row + .hex-row {
-        margin-top: -43px;
-    }
-    .hex {
-        width: 150px;
-        height: 173px;
+        justify-content: center;
         overflow: hidden;
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        transition: transform 0.2s ease;
     }
-    .hex:hover {
-        transform: scale(1.06);
+    .photo-grid img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
     }
-    .hex img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
+    .photo-grid img.turn {
+        transform: rotate(90deg);
+    }
+    @media (max-width: 480px) {
+        .photo-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 </style>
 
 <comment>
-Gallery of Pics, arranged in a honeycomb
+Gallery of Pics, simple grid, nothing cropped
 </comment>
-<div class="hex-grid">
-  <div class="hex-row">
-    <div class="hex"><img src="{{site.baseurl}}/images/about/family.jpg" alt="Family"></div>
-    <div class="hex"><img src="{{site.baseurl}}/images/about/brother.jpg" alt="Brother"></div>
-    <div class="hex"><img src="{{site.baseurl}}/images/about/friends1.jpg" alt="Friends"></div>
-  </div>
-  <div class="hex-row">
-    <div class="hex"><img src="{{site.baseurl}}/images/about/friends2.jpg" alt="Friends"></div>
-    <div class="hex"><img src="{{site.baseurl}}/images/about/friends3.jpg" alt="Friends"></div>
-  </div>
-  <div class="hex-row">
-    <div class="hex"><img src="{{site.baseurl}}/images/about/friends4.jpg" alt="Friends"></div>
-    <div class="hex"><img src="{{site.baseurl}}/images/about/friends5.jpg" alt="Friends"></div>
-    <div class="hex"><img src="{{site.baseurl}}/images/about/friends6.jpg" alt="Friends"></div>
-  </div>
+<div class="photo-grid">
+  <div class="cell"><img src="{{site.baseurl}}/images/about/family.jpg" alt="Family"></div>
+  <div class="cell"><img src="{{site.baseurl}}/images/about/brother.jpg" alt="Brother"></div>
+  <div class="cell"><img src="{{site.baseurl}}/images/about/friends1.jpg" alt="Friends"></div>
+  <div class="cell"><img src="{{site.baseurl}}/images/about/friends2.jpg" alt="Friends"></div>
+  <div class="cell"><img class="turn" src="{{site.baseurl}}/images/about/friends3.jpg" alt="Friends"></div>
+  <div class="cell"><img src="{{site.baseurl}}/images/about/friends4.jpg" alt="Friends"></div>
+  <div class="cell"><img class="turn" src="{{site.baseurl}}/images/about/friends5.jpg" alt="Friends"></div>
+  <div class="cell"><img class="turn" src="{{site.baseurl}}/images/about/friends6.jpg" alt="Friends"></div>
 </div>

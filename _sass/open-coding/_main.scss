@@ -1,6 +1,5 @@
 @import 'root-color-map.scss';
 @import "mixins/variables";
-@import "base/typography";
 @import "bathroom";
 @import "blogs";
 @import "calendar";
@@ -37,6 +36,9 @@
 @import "api-documentation";
 @import "open-coding/pixel-submit-widget";
 @import "open-coding/grading_modules";
+
+// Loaded last so the site-wide color/font overrides always win
+@import "base/typography";
 
 
 html,
