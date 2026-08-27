@@ -7,7 +7,7 @@ comments: true
 
 ## As a conversation Starter
 
-Here are some places I have lived.
+Here are some places I have had permanent residences.
 
 <comment>
 Flags are made using Wikipedia images
@@ -141,6 +141,24 @@ Here are some of my favorite places I have traveled to!
         text-align: center;
         margin-top: 5px;
     }
+    .travel-gallery figure.shift-down {
+        margin-top: 25px;
+    }
+    .travel-gallery .rotate-wrap {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .travel-gallery .rotate-wrap img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150px;
+        height: 200px;
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
 </style>
 
 <div class="travel-gallery">
@@ -149,7 +167,9 @@ Here are some of my favorite places I have traveled to!
     <figcaption>Hawaii!</figcaption>
   </figure>
   <figure>
-    <img src="{{site.baseurl}}/images/about/vegas.jpeg" alt="Las Vegas">
+    <div class="rotate-wrap">
+      <img src="{{site.baseurl}}/images/about/vegas.jpeg" alt="Las Vegas">
+    </div>
     <figcaption>Las Vegas</figcaption>
   </figure>
   <figure>
@@ -160,11 +180,11 @@ Here are some of my favorite places I have traveled to!
     <img src="{{site.baseurl}}/images/about/death_valley.jpeg" alt="Death Valley">
     <figcaption>Death Valley</figcaption>
   </figure>
-  <figure>
+  <figure class="shift-down">
     <img src="{{site.baseurl}}/images/about/horseshoe_bend.jpeg" alt="Horseshoe Bend">
     <figcaption>Horseshoe Bend</figcaption>
   </figure>
-  <figure>
+  <figure class="shift-down">
     <img src="{{site.baseurl}}/images/about/antelope_canyon.jpeg" alt="Antelope Canyon">
     <figcaption>Antelope Canyon</figcaption>
   </figure>
