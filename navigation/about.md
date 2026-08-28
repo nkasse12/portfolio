@@ -57,7 +57,7 @@ Flags are made using Wikipedia images
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - 5 years"},
         {"flag": "b/b5/Flag_of_Michigan.svg", "greeting": "Hello", "description": "Michigan - 5 and a half years"},
-        {"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India - 2 years"},
+        {"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India - 4 years"},
     ];
 
     // 3a. Consider how to update style count for size of container
