@@ -113,6 +113,7 @@ Here are some of my favorite places I have traveled to!
 - ✈️ Horseshoe Bend
 - ✈️ Antelope Canyon
 - And so many more!
+
 All of these pictures were taken by me!
 
 <style>
@@ -162,7 +163,7 @@ All of these pictures were taken by me!
 
 <div class="travel-gallery">
   <figure>
-    <img class="crop-top" src="{{site.baseurl}}/images/about/hawaii.jpeg" alt="Hawaii">
+    <img src="{{site.baseurl}}/images/about/hawaii.jpeg" alt="Hawaii">
     <figcaption>Hawaii!</figcaption>
   </figure>
   <figure>
