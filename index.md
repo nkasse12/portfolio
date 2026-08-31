@@ -5,7 +5,7 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is Nitya H. Kasse!
+Hi! My name is Nitya Kasse!
 
 ### Development Environment
 
