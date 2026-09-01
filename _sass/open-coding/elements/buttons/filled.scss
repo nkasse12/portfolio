@@ -4,33 +4,33 @@
 
 // FILLED BUTTONS =========
 button, .primary {
-    // this is the default button style
-    color: $white1;
-    background-color: rgba(80, 80, 80, 0.7);
+    // this is the default button style -- Hawaii theme coral
+    color: #ffffff;
+    background-color: #d9552e;
 
-    @include hover-darken(rgba(80, 80, 80, 0.7));
-    @include active-darken(rgba(80, 80, 80, 0.7));
+    @include hover-darken(#d9552e);
+    @include active-darken(#d9552e);
 }
 
 .secondary {
-    color: #999999;
-    background-color: rgba(120, 120, 128, 0.12);
+    color: #0d3a36;
+    background-color: rgba(79, 209, 197, 0.15);
 
-    @include hover-darken(rgba(120, 120, 128, 0.12));
-    @include active-darken(rgba(120, 120, 128, 0.12));
+    @include hover-darken(rgba(79, 209, 197, 0.15));
+    @include active-darken(rgba(79, 209, 197, 0.15));
 }
 
 .filledHighlight {
-    background-color: #007aff;
+    background-color: #d9552e;
 
-    @include hover-darken(#007aff);
-    @include active-darken(#007aff);
+    @include hover-darken(#d9552e);
+    @include active-darken(#d9552e);
 }
 
 .filledTinted {
-    color: #007aff;
-    background-color: rgba(0, 122, 255, 0.15);
+    color: #0d3a36;
+    background-color: rgba(79, 209, 197, 0.15);
 
-    @include hover-darken(rgba(0, 122, 255, 0.15));
-    @include active-darken(rgba(0, 122, 255, 0.15));
+    @include hover-darken(rgba(79, 209, 197, 0.15));
+    @include active-darken(rgba(79, 209, 197, 0.15));
 }

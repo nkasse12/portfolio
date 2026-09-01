@@ -34,12 +34,12 @@ td code {
 /* Force overall website background and text color -- Hawaii palette */
 html, body {
     background-color: #eafcfb !important; /* Tropical teal-tinted white background */
-    color: #000000 !important;            /* Deep teal text */
+    color: #0d3a36 !important;            /* Deep teal text */
 }
 
 /* Force headings and paragraph text to be readable */
 p, li, h1, h2, h3, h4, h5, h6, a {
-    color: #000000 !important;
+    color: #0d3a36 !important;
 }
 
 /* Make links pop with a coral accent color */
@@ -48,13 +48,13 @@ a {
 }
 
 .page-content {
-  color: #000000;
+  color: #0d3a36;
 }
 
 :link {
   background-color: transparent;
-  border: 2px solid #000000;
-  color: #000000;
+  border: 2px solid #0d3a36;
+  color: #0d3a36;
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;
