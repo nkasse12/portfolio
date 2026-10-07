@@ -51,6 +51,25 @@ a {
   color: #0d3a36;
 }
 
+/* Code Runner widgets manage their own dark theme — don't let the global
+   "readable text" override above crush contrast inside them. */
+.code-runner-container {
+  h1, h2, h3, h4, h5, h6, p, li {
+    color: var(--pref-text-color) !important;
+  }
+
+  pre, code {
+    color: var(--pref-text-color) !important;
+  }
+
+  .CodeMirror,
+  .CodeMirror pre,
+  .CodeMirror-line,
+  .CodeMirror-line * {
+    color: var(--pref-text-color) !important;
+  }
+}
+
 :link {
   background-color: transparent;
   border: 2px solid #0d3a36;
